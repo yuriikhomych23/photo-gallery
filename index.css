@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#gallery {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gallery .photos {
+    position: relative;
+    height: 540px;
+}
+#gallery .photos img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#gallery .photos img.showed {
+    opacity: 1;
+}
